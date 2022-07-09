@@ -139,6 +139,7 @@ async def gen_thumb(videoid):
             f"Channel~ : {channel}",
             (255, 255, 255),
             font=arial,
+        )
         draw.text(
             (600, 600),
             f"Thanks For Using ~ {MUSIC_BOT_NAME}",
